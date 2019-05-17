@@ -96,29 +96,33 @@ div.container
 }
 
 
-.work-item img
+.item img
 {
 	width:100%;
 }
-.club-item img
-{
-	width:100%;
-}
-.club-content
+
+.item-content
 {
 	background-color: rgb(41, 47, 54);
 	color:rgb(93, 103, 113);
-	padding: 1vh;
+	padding: 2vh;
 }
-.content p.club-name
+.content p.item-name
 {
 	color:rgb(113, 123, 133);
 	font-weight: 500;
 	margin-bottom: 0vh;
 }
-.club-desc
+.item-desc
 {
   font-size: 1.5vh;
+}
+
+
+.post p.item-name
+{
+	color:rgb(179, 179, 179);
+	margin-bottom: 1vh;
 }
 
 /*//////////////////////////Flipping Mechanism////////////////////////////////////////*/
