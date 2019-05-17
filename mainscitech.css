@@ -154,3 +154,7 @@ div.container
   padding: 60px;
 
 }
+
+.content li+li {
+  margin-top: 0px;
+}

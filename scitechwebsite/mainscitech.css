@@ -245,3 +245,6 @@ div.container
   color:rgb(87, 203, 204);
   background-color: white;
 }
+.content li+li {
+  margin-top: 0;
+}
