@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mainscitech.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 
       <title>SciTech Council, IITH</title>
 
@@ -108,35 +109,79 @@
 </div>
 
 
+<!-- <div class="item-container">
+  <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-25.jpg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+</div> -->
+
   <div class="work-list columns has-text-centered is-2 is-variable is-desktop is-multiline">
     <div class="column is-one-third-desktop">
-      <div class="item design">
-        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-25.jpg">
+
+      <div class="item-container design">
+       <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-25.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">Aero</p>
+            <p class="middle-desc">Aero club showing off!</p>
+            </div>
+        </div>
       </div>
     </div>
     <div class="column is-one-third-desktop">
-      <div class="item design">
-        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-37.jpg">
+            <div class="item-container design">
+       <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-37.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">Lambda Presentation</p>
+            <p class="middle-desc">Just another web and coding club that shall endure</p>
+            </div>
+        </div>
       </div>
     </div>
     <div class="column is-one-third-desktop">
-      <div class="item photography">
-        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-49.jpg">
+      <div class="item-container photography">
+       <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-49.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">Explaining Astronomy</p>
+            <p class="middle-desc">Cepheid in its orientation</p>
+            </div>
+        </div>
       </div>
     </div>
     <div class="column is-one-third-desktop">
-      <div class="item photography">
-        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662862/Copy_of_st-55.jpg">
+      <div class="item-container photography">
+       <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551662860/Copy_of_st-55.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">Prakriti</p>
+            <p class="middle-desc"></p>
+            </div>
+        </div>
       </div>
     </div>
     <div class="column is-one-third-desktop">
-      <div class="item design">
-        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551663555/S.T.-26.jpg">
+     <div class="item-container design">
+       <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551663555/S.T.-26.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">The Song Changer</p>
+            <p class="middle-desc">Yet another Elektronica Project</p>
+            </div>
+        </div>
       </div>
     </div>
     <div class="column is-one-third-desktop">
-      <div class="item development">
-        <img src="http://gymkhana.iith.ac.in/sci-tech/kludge/images/album1/2.jpg">
+      <div class="item-container devlopment">
+       <img src="http://gymkhana.iith.ac.in/sci-tech/kludge/images/album1/2.jpg" alt="Avatar" class="work-image">
+        <div class="middle">
+          <div class="text">
+            <p class="middle-title">Kludge Night</p>
+            <p class="middle-desc">Caffeine and nmap</p>
+            </div>
+        </div>
       </div>
     </div>
   </div>
@@ -352,7 +397,7 @@
 
    <div class="post columns has-text-centered is-2 is-variable is-desktop is-multiline is-centered">
 
-     <div class="column is-half-desktop item">
+     <div class="column is-5-desktop item">
        <img src="https://res.cloudinary.com/dxj3caopc/image/upload/v1551663555/S.T.-26.jpg">
        <div class="item-content has-text-left">
                     <p class="item-name">The Song Changer</p>
@@ -363,7 +408,7 @@
        </div>
      </div>
 
-     <div class="column is-half-desktop item">
+     <div class="column is-5-desktop item">
        <img src="https://i.imgur.com/sgPbrPH.png">
        <div class="item-content has-text-left">
                     <p class="item-name">Arduino Glasses</p>
@@ -375,17 +420,63 @@
      </div>
  </div>
     <div class="column has-text-centered">
-      <button class="scitech-week is-primary button">VIEW ALL POSTS</button>
+      <a class="scitech-week is-primary button" style="font-family: 'Roboto Mono', monospace; padding: 2.5vh; border-radius: 0vh;">VIEW ALL POSTS</a>
     </div>
 
 </div>
-
-
-
-
-
 </div>
 
+
+<div class="footer">
+  <p class="is-size-1 sec-title">Get in<span class="teal"> Touch</span></p>
+  <div class="foot columns  is-2 is-variable is-desktop is-multiline is-centered">
+    <div class="column has-text-centered is-one-third-desktop item">
+      ho
+    </div>
+    <div class="column is-one-third-desktop item">
+          
+
+
+
+ <div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="John Williams">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Email</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input" type="email" placeholder="johnwilliams@mail.com">
+    <span class="icon is-small is-left" style="color:rgb(65, 72, 81);">
+      <i class="fas fa-envelope"></i>
+    </span>
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Subject</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Subject">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Message</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="Enter your message here"></textarea>
+  </div>
+</div>
+<div class="field ">
+  <div class="control is-expanded">
+    <button class="button " style="width: 100%;">Submit</button>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
 <script src="mainscitech.js"></script>
 
 </body>
