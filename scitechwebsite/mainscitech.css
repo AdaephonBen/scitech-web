@@ -488,3 +488,6 @@ div.content.all
   transform: rotateY(180deg);
   z-index: 1;
 }
+a.highlighted span,a.navbar-item:active span {
+  color: rgb(87, 203, 204) ;
+}
